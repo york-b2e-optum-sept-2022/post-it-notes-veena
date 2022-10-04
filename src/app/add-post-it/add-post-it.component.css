@@ -1,0 +1,6 @@
+.Post-It-Notes{
+  display:flex;
+  flex-direction:column;
+  background-color: paleturquoise;
+  padding:1rem;
+}
