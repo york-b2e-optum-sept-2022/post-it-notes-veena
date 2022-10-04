@@ -1,5 +1,5 @@
 export interface IList {
-  id:string,
-  text:string,
-  date:Date,
+  id: string,
+  input: string,
+  date: Date,
 }

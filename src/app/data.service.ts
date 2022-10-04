@@ -16,7 +16,7 @@ $isAdding = new Subject<boolean>();
   private postItList: IList[] = [
 {
   id: '1',
-  text:'input',
+  input:'string',
   date:new Date()
   }
   ]

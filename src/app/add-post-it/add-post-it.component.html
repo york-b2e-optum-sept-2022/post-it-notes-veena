@@ -3,10 +3,14 @@
 <div> Date Created: {{postit.date | date}} </div>
 
 <div class="Post-It-Notes">
-<textarea
-  #input
+<textarea [(ngModel)]="postit.input"
 placeholder="Write note here"
 ></textarea>
-<button (click)="onClickNew()">submit</button>
+</div>
+
+<div>
+
+<button type="button" class="btn btn-success" (click)="onClickNew()">submit</button>
+
 </div>
 

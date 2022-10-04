@@ -9,9 +9,9 @@ import {DataService} from "../data.service";
 })
 export class AddPostItComponent implements OnInit {
 
-  postit: IList={
+  postit : IList={
     id: '',
-    text:'',
+   input:'',
     date: new Date,
   }
   constructor(private dataService: DataService ) {
